@@ -1,38 +1,38 @@
 {
     "user" : {
-        "fullName" : "",
+        "fullName" : "Thuto Machika",
         "photo" : "",
-        "phone" : "",
-        "email" : ""
+        "phone" : "0742348754",
+        "email" : "thutomachika3@gmail.com"
     },
     "education" : {
-        "institutionName" : "",
+        "institutionName" : "University of Johannesburg",
         "photo" : "",
-        "description" : ""
+        "description" : "degree"
     },
     "foreignLanguage" : {
-        "language" : "",
+        "language" : "Hindi",
         "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "I love myself",
+            "foreignLanguage" : "mujhe khud se pyaar hai"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+            "englishPhrase" : "am very handsome hi",
+            "foreignLanguage" : "main bahut sundar hoon namaste"
         }]
     },
     "favouriteSubjects" : [
         {
-            "name" : "",
-            "description" : ""
+            "name" : "maths",
+            "description" : "numbers"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "information systems",
+            "description" : "coding"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name" : "biology",
+            "description" : "life sciences"
         }
     ]
 }
