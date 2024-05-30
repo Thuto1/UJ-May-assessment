@@ -1,0 +1,47 @@
+body {
+  background-color: rgb(252, 253, 253);
+  border: 20px;
+  display: block;
+}
+.info {
+  background-color: rgb(255, 255, 255);
+  
+}
+.education {
+  border-radius: 20px;
+ 
+}
+.info {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.fav {
+  text-align: center;
+}
+
+.myVideo {
+  
+  /* margin-left: 50%;
+  margin-right: 50%;
+} */
+
+.edu {
+  text-align: center;
+}
+
+.thuto {
+  text-align: center;
+}
+
+@media screen (min-width: 360px) {
+  .skills {
+    float: right !important;
+  }
+  
+}
+
+@media screen (min-width:960px) {
+  /*.myVideo {
+    align-items: centre:
+  }*/
+}

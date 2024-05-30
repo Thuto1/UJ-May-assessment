@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Thuto's CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    
+    <h1 class="thuto">Thuto Curriculum Vitae</h1>     
+    <div class="info">
+     <ul>   
+        Full Name: {{user.fullName}}
+        <li>Phone: {{user.phone}} </li>
+        Email: {{user.email}}
+     </ul>
+    
+    </div>
+
+    <div class="myVideo">
+        <video id="myVideo" style="align-items: center;" controls autoplay muted width="300" height="300" controls autoplay>
+            <source src="Screen Recording 2024-05-18 at 01.55.30.mov">
+         </video>
+     </div>
+
+    <div>
+        <h1>SUMMARY</h1>
+        {{summary.sum}}
+    </div>
+  
+        <h1 class="edu">EDUCATION</h1>
+<div class="education">
+    {{education.institutionName}} :
+</div>
+{{education.description}}
+
+<div class="exp">
+    <h1>Experience</h1>
+    <p>
+        Currently completing my post graduate programme with Accenture in collaborating with the University of Johannesburg, where am doing Full Stack Web Dev,  Agile Rapid Skills Engineering Business Management and 4IR BootCamp.
+    </p>
+    <h4>{{experience.exp-info}}</h4>
+    <ul>
+        {{#each experience.exp}}
+        <li>{{this}}</li>
+        {{/each}}
+    </ul>
+
+</div>
+
+<div class="fav">
+    <h1>Favourite Subjects</h1>
+    <ul>
+        {{#each favouriteSubjects}}
+        <li>{{this.name}}</li>
+        {{/each}}
+    </ul>
+</div>
+
+<div class="skills">
+    <h1>SKILLS</h1>
+    <ul class="skills">
+        {{#each skills}}
+        <li>{{this.skill}}</li>
+        {{/each}}
+    </ul>
+</div>
+    
+    
+<script>
+    // Get the video element
+    const video = document.getElementById('myVideo');
+
+    // Add an event listener for the 'ended' event
+    video.addEventListener('ended', () => {
+      // Replay the video
+      video.currentTime = 0;
+      video.play();
+    });
+  </script>
+    
 </body>
 </html>

@@ -1,38 +1,68 @@
 {
-    "user" : {
-        "fullName" : "Thuto Machika",
-        "photo" : "",
-        "phone" : "0742348754",
-        "email" : "thutomachika3@gmail.com"
+    "user": {
+        "fullName": "Thuto Machika",
+        "photo": "",
+        "phone": "0742348754",
+        "email": "thutomachika3@gmail.com"
     },
-    "education" : {
-        "institutionName" : "University of Johannesburg",
-        "photo" : "",
-        "description" : "degree"
+    "summary": {
+        "sum": "Junior Full Stack Web Developer specializing in front end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML,  JavaScript, CSS, MySQL, Python. Strong background in project management and customer relations."
     },
-    "foreignLanguage" : {
-        "language" : "Hindi",
-        "phrases" : [{
-            "englishPhrase" : "I love myself",
-            "foreignLanguage" : "mujhe khud se pyaar hai"
+    "education": {
+        "institutionName": "University of Johannesburg",
+        "photo": "",
+        "description": "BA Degree Majoring in Information Systems, Economics and Politics"
+    },
+    "experience": {
+        "exp-info": "Even thou am still completing my WRP i have experience in the following:",
+        "exp": [
+            "Carry out quality assurance tests to discover errors and optimize usability.",
+            "Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code.",
+            "Develop project concepts and maintain optimal workflow."
+        ]
+    },
+    "foreignLanguage": {
+        "language": "Hindi",
+        "phrases": [
+            {
+                "englishPhrase": "I love myself",
+                "foreignLanguage": "mujhe khud se pyaar hai"
+            },
+            {
+                "englishPhrase": "am very handsome hi",
+                "foreignLanguage": "main bahut sundar hoon namaste"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "skill": "Complex problem solver"
         },
         {
-            "englishPhrase" : "am very handsome hi",
-            "foreignLanguage" : "main bahut sundar hoon namaste"
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "maths",
-            "description" : "numbers"
+            "skill": "Coding"
         },
         {
-            "name" : "information systems",
-            "description" : "coding"
+            "skill": "Project Management"
         },
         {
-            "name" : "biology",
-            "description" : "life sciences"
+            "skill": "Team leader"
+        },
+        {
+            "skill": "Problem Solver"
+        }
+    ],
+    "favouriteSubjects": [
+        {
+            "name": "MATHS",
+            "description": "numbers"
+        },
+        {
+            "name": "INFORMATION SYSTEMS",
+            "description": "coding"
+        },
+        {
+            "name": "BIOLOGY",
+            "description": "life sciences"
         }
     ]
 }
